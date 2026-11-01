@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Get a Quote — Trust Haul Logistics Pvt. Ltd.</title>
+<meta name="description" content="Get a 4-wheeler transport quote in 2 minutes. We respond within 2 business hours with a clear NPR price inclusive of 13% VAT.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <a href="index.html" class="logo">Trust<span>Haul</span> Logistics</a>
+    <a href="contact.html#quote" class="header-cta">Get a Quote</a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="for-dealers.html">For Dealers</a>
+      <a href="for-owners.html">For Owners</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="faq.html">FAQ</a>
+    </nav>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <div class="breadcrumb"><a href="index.html">Home</a><span>›</span>Contact</div>
+    <h1>Get a Vehicle Transport Quote</h1>
+    <p>Fill the form in 2 minutes — or WhatsApp us directly for urgent bookings.</p>
+  </div>
+</section>
+
+<section class="quote-section" id="quote">
+  <div class="container">
+    <div class="contact-grid">
+
+      <form class="quote-form" name="quote" method="POST" action="/thanks.html" data-netlify="true" netlify-honeypot="bot-field">
+        <input type="hidden" name="form-name" value="quote">
+        <p style="display:none;"><label>Don't fill this out: <input name="bot-field"></label></p>
+
+        <div class="form-section-label first">Your details</div>
+        <div class="form-row">
+          <div class="field">
+            <label>Your Name</label>
+            <input type="text" name="name" placeholder="Full name" required>
+          </div>
+          <div class="field">
+            <label>Phone / WhatsApp</label>
+            <input type="tel" name="phone" placeholder="+977 98XXXXXXXX" required>
+          </div>
+        </div>
+
+        <div class="form-section-label">What are we moving?</div>
+        <div class="form-row full">
+          <div class="field">
+            <label>Service type</label>
+            <div class="radio-group">
+              <label><input type="radio" name="service_type" value="Dealership to Customer" required> Dealership → Customer</label>
+              <label><input type="radio" name="service_type" value="Dealership to Dealership"> Dealership → Dealership</label>
+              <label><input type="radio" name="service_type" value="Single vehicle"> Single vehicle</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="field">
+            <label>Vehicle make & model</label>
+            <input type="text" name="vehicle" placeholder="e.g. Suzuki Swift, Hyundai Creta" required>
+          </div>
+          <div class="field">
+            <label>Vehicle condition</label>
+            <select name="condition" required>
+              <option value="">Select…</option>
+              <option value="New (unregistered)">New (unregistered)</option>
+              <option value="Used (registered)">Used (registered)</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="field">
+            <label>Number of vehicles</label>
+            <select name="quantity" required>
+              <option value="">Select…</option>
+              <option value="1">1</option>
+              <option value="2-5">2–5</option>
+              <option value="6+">6+</option>
+            </select>
+          </div>
+          <div class="field">
+            <label>Preferred pickup date</label>
+            <input type="date" name="pickup_date">
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="field">
+            <label>Pickup city</label>
+            <input type="text" name="origin" placeholder="e.g. Kathmandu" required>
+          </div>
+          <div class="field">
+            <label>Delivery city</label>
+            <input type="text" name="destination" placeholder="e.g. Pokhara" required>
+          </div>
+        </div>
+
+        <div class="form-row full">
+          <div class="field">
+            <label class="check-row">
+              <input type="checkbox" name="driven_consent" value="Yes" required>
+              I understand the vehicle will be driven to the destination and the odometer will reflect route distance.
+            </label>
+          </div>
+        </div>
+
+        <div class="form-row full">
+          <div class="field">
+            <label>Anything else? (optional)</label>
+            <textarea name="notes" rows="3" placeholder="Dealership name, multiple destinations, timeline, driver requirements…"></textarea>
+          </div>
+        </div>
+
+        <button type="submit" class="btn-primary">Submit Quote Request →</button>
+        <p class="form-note">All quotes are issued in NPR and inclusive of 13% VAT. We respond within 2 business hours.</p>
+      </form>
+
+      <aside class="contact-sidebar">
+        <h3>Talk to us directly</h3>
+        <p>For urgent same-day bookings, WhatsApp is fastest.</p>
+        <div class="contact-item"><span class="ci-ico">📞</span><div><a href="tel:+9779800000000">+977 98XXXXXXXX</a><br><span style="opacity:.7;font-size:.82rem">Sun–Fri, 9 AM–6 PM NPT</span></div></div>
+        <div class="contact-item"><span class="ci-ico">💬</span><div><a href="https://wa.me/9779800000000" target="_blank">WhatsApp us</a><br><span style="opacity:.7;font-size:.82rem">Fastest for same-day jobs</span></div></div>
+        <div class="contact-item"><span class="ci-ico">✉️</span><div><a href="mailto:quotes@trusthaullogistics.com">quotes@trusthaullogistics.com</a><br><span style="opacity:.7;font-size:.82rem">Response within 2 business hours</span></div></div>
+        <div class="contact-item"><span class="ci-ico">📍</span><div>Corporate Office:<br>[Your Address], Kathmandu, Nepal</div></div>
+        <div class="contact-item"><span class="ci-ico">🕘</span><div>Sun–Fri, 9:00 AM – 6:00 PM NPT<br><span style="opacity:.7;font-size:.82rem">Closed Saturday</span></div></div>
+      </aside>
+
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="foot-col">
+      <strong>Trust Haul Logistics Pvt. Ltd.</strong><br>
+      Corporate Office: [Your Address], Kathmandu, Nepal<br>
+      📞 <a href="tel:+9779800000000">+977 98XXXXXXXX</a> · ✉️ <a href="mailto:quotes@trusthaullogistics.com">quotes@trusthaullogistics.com</a><br>
+      🕘 Sun–Fri, 9:00 AM – 6:00 PM NPT
+    </div>
+    <div class="foot-right">
+      © 2026 Trust Haul Logistics Pvt. Ltd. · All rights reserved.<br>
+      Company Reg. No.: [XXXXXX] · PAN/VAT No.: [XXXXXXXX]
+    </div>
+  </div>
+</footer>
+
+<a href="https://wa.me/9779800000000?text=Namaste%20Trust%20Haul%2C%20I%20need%20a%20quote." class="whatsapp-float" target="_blank" aria-label="Chat on WhatsApp">💬</a>
+
+</body>
+</html>
